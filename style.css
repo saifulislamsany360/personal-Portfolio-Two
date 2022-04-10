@@ -14,7 +14,7 @@ body{
 .flex_container {
     display: flex;
 }
-.foc_btn{
+.btn{
     color: #fff;
     padding: 10px 25px;
     background-image:linear-gradient(tomato, rgb(236, 54, 30));
@@ -32,8 +32,10 @@ section{
     padding-right: 20%;
 }
 .foc_h1{
+    padding-left: 20px;
     font-family: 'Courgette', cursive; 
     font-size: 35px;
+    border-left: 5px solid orangered;
 }
 .foc_h1 span{ 
     color: orange;
@@ -95,19 +97,22 @@ section{
     background-position: left;
     background-size: 20%;
 }
+
 .left_deve_item{
     width: 40%;
 }
 .left_deve_item img{
-    width: 80%;
+    width: 90%;
 }
 .right_deve_item{
     width: 60%;
 }
 .deve_headding{
-    font-size: 30px;
+    font-size: 35px;
     color: rgb(56, 55, 55);
 }
 .deve_text{
-    
+    color: dimgray;
+    line-height: 30px;
+    padding-bottom: 5px;
 }
