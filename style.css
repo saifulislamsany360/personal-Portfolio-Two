@@ -65,10 +65,6 @@ section{
 #mission_section span{
     color: orange;
 }
-.mis_sub_card{
-    display: flex;
-  
-}
 .mission_card {
     width: 30%;
     background: rgb(248, 200, 207);
@@ -92,4 +88,26 @@ section{
 .mission_text{
     color: dimgray;
     line-height: 25px;
+}
+/* develop section */
+#develop_section{
+    background-image: url(/Images/shape-1.png);
+    background-position: left;
+    background-size: 20%;
+}
+.left_deve_item{
+    width: 40%;
+}
+.left_deve_item img{
+    width: 80%;
+}
+.right_deve_item{
+    width: 60%;
+}
+.deve_headding{
+    font-size: 30px;
+    color: rgb(56, 55, 55);
+}
+.deve_text{
+    
 }
