@@ -14,6 +14,12 @@ body{
 .flex_container {
     display: flex;
 }
+.foc_btn{
+    color: #fff;
+    padding: 10px 25px;
+    background-image:linear-gradient(tomato, rgb(236, 54, 30));
+    border-radius: 5px;
+}
 section{
     margin-bottom: 100px; 
 }
@@ -38,7 +44,7 @@ section{
     line-height: 30px;
     padding:  20px 0 10px 0;
 }
-.foc_btn{
+.btn{
     color: #fff;
     padding: 10px 25px;
     background-image:linear-gradient(tomato, rgb(236, 54, 30));
@@ -65,10 +71,25 @@ section{
 }
 .mission_card {
     width: 30%;
-    background: lightpink;
+    background: rgb(248, 200, 207);
     margin-right: 20px;
-    padding-left: 20px;
+    padding: 20px;
+    padding-bottom: 0;
+    border-radius:10px;
+}
+.mission_card:first-child{
+    background: rgb(185, 221, 241);
+}
+.mission_card:nth-child(2){
+    background: rgb(245, 229, 177);
 }
 .mission_card img {
     width: 50%;
+}
+.mission_tittle{
+    font-size: 20px;
+}
+.mission_text{
+    color: dimgray;
+    line-height: 25px;
 }
