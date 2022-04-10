@@ -180,3 +180,24 @@ section{
     line-height: 30px;
     padding-bottom: 10px;
 }
+/* footer section  */
+#footer_section{
+    background: black;
+    padding: 15px;
+    margin-bottom: 5px;
+}
+#footer_section span {
+    color: crimson;
+}
+#footer_section h3 {
+    font-family: 'Courgette', cursive;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+.footer_text {
+    font-size: 12px;
+    text-align: center;
+    color: white;
+    font-weight: normal;
+}
